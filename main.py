@@ -90,7 +90,7 @@ def read_data_from_db():
         print(e)
 
 def keyboard():
-    markup = ReplyKeyboardMarkup(row_width=3)
+    markup = ReplyKeyboardMarkup(row_width=3, resize_keyboard=True)
 
     button1 = KeyboardButton("Save Name")
     button2 = KeyboardButton("Show Data")
